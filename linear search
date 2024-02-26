@@ -1,0 +1,22 @@
+#include<iostream>
+int linearsearch(int arr[], int size, int target){
+	for (i=0, i<size, ++i){
+		if (arr[i] == target){
+			return i;
+		}
+		return -1;
+	}
+}
+int main(){
+	int size = 5;
+	int arr[size] = {23, 45, 86, 98, 38};
+	int target;
+	std::cout<<"enter the target:";
+	std::cin>>target;
+	if (result!= -1){
+		stdd::cout<<"element found: "<<std::endl;
+	}
+	else{
+		stdd::cout<<"element not found: "<<std::endl;
+	}
+}
